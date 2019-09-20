@@ -231,9 +231,9 @@ body{
     color: #0f1c3b;
 }
 
-.drop-up{
+/* .drop-up{
     transform: rotate(180deg)
-}
+} */
 
 .mob-card-body{
     padding-left: 0;
