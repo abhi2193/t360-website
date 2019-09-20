@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="55" viewBox="0 0 60 55">
+    <defs>
+        <circle id="b" cx="22" cy="22" r="22"/>
+        <filter id="a" width="156.8%" height="156.8%" x="-28.4%" y="-26.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter3"/>
+            <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter3"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="c" x1="16.055%" x2="84.276%" y1="14.723%" y2="85.852%">
+            <stop offset="0%" stop-color="#002C78"/>
+            <stop offset="100%" stop-color="#001443"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(8 2)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#FFF" xlink:href="#b"/>
+        <circle cx="22" cy="22" r="18" fill="url(#c)"/>
+        <g fill="#FFF">
+            <path d="M30.205 13.234c.412.413.268 1.202-.33 1.8l-6.686 6.685 6.687 6.687c.597.597.741 1.387.33 1.8-.413.411-1.203.267-1.8-.33l-6.687-6.687-6.686 6.687c-.597.597-1.386.741-1.799.33-.412-.413-.267-1.203.33-1.8l6.686-6.687-6.686-6.686c-.597-.597-.742-1.386-.33-1.799.413-.412 1.202-.267 1.8.33l6.685 6.686 6.687-6.686c.597-.597 1.387-.742 1.8-.33z"/>
+        </g>
+    </g>
+</svg>

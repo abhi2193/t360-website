@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="69" viewBox="0 0 68 69">
+    <defs>
+        <linearGradient id="a" x1="84.343%" x2="10.909%" y1="86.704%" y2="17.937%">
+            <stop offset="0%" stop-color="#2199FC"/>
+            <stop offset="100%" stop-color="#8CCBFF"/>
+        </linearGradient>
+        <circle id="c" cx="34" cy="34" r="26"/>
+        <filter id="b" width="148.1%" height="148.1%" x="-24%" y="-22.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter3"/>
+            <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter3"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="d" x1="14.994%" x2="83.888%" y1="16.054%" y2="85.153%">
+            <stop offset="0%" stop-color="#002C78"/>
+            <stop offset="100%" stop-color="#001443"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="34" cy="34" r="34" fill="url(#a)"/>
+        <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+        <use fill="#FAFAFA" xlink:href="#c"/>
+        <g fill="url(#d)" transform="translate(16 16)">
+            <path fill-rule="nonzero" d="M31.42 16.594c.322.527.322 1.2 0 1.756l-1.434 2.487v2.78c0 .643-.35 1.2-.877 1.521l-2.4 1.375-1.433 2.458a1.756 1.756 0 0 1-1.522.878h-2.838l-2.429 1.404a1.875 1.875 0 0 1-.877.235c-.293 0-.615-.088-.878-.235l-2.429-1.404h-2.78c-.643 0-1.2-.351-1.521-.878l-1.404-2.428-2.488-1.434a1.756 1.756 0 0 1-.877-1.522V20.72l-1.376-2.37a1.875 1.875 0 0 1-.234-.878c0-.293.088-.614.234-.878l1.376-2.399v-2.867c0-.644.35-1.2.877-1.522l2.488-1.404 1.404-2.429a1.756 1.756 0 0 1 1.522-.878h2.78l2.428-1.404a1.716 1.716 0 0 1 1.755 0l2.429 1.404h2.838c.644 0 1.2.351 1.522.878l1.433 2.458 2.4 1.375c.556.322.877.907.877 1.522v2.78l1.434 2.486zm-15.313 6.008l7.812-7.813-1.697-1.697-6.115 6.115-2.955-2.955-1.697 1.697 4.652 4.653zm17.07-9.25l1.602 2.777c.537.888.536 2.01.005 2.926l-1.606 2.786v3.107c0 1.04-.554 1.976-1.462 2.53l-2.68 1.537-1.605 2.75a2.919 2.919 0 0 1-2.528 1.458h-3.176L18.999 34.8a3.06 3.06 0 0 1-1.447.383c-.489 0-1.01-.14-1.46-.39l-2.716-1.57H10.27c-1.04 0-1.976-.554-2.529-1.46l-1.57-2.715-2.787-1.607a2.919 2.919 0 0 1-1.459-2.528v-3.21L.383 19.043A3.06 3.06 0 0 1 0 17.597c0-.489.14-1.01.388-1.458l1.537-2.681v-3.213c0-1.04.554-1.976 1.466-2.533l2.782-1.57 1.569-2.713A2.919 2.919 0 0 1 10.27 1.97h3.106L16.091.4c.922-.533 2.048-.533 2.92 0l2.716 1.57h3.176c1.04 0 1.976.554 2.527 1.457l1.605 2.751 2.684 1.539a2.919 2.919 0 0 1 1.459 2.528v3.107zm.2 3.621l-.011-.018-1.825-3.165v-3.545c0-.457-.24-.88-.639-1.11l-3.06-1.754-.11-.19-1.707-2.926c-.253-.413-.667-.658-1.122-.658h-3.615l-.19-.11-2.923-1.69c-.37-.227-.855-.227-1.264.01l-3.096 1.79H10.27c-.457 0-.88.24-1.112.641l-1.792 3.1-.194.109L4.22 9.123c-.413.253-.658.667-.658 1.122v3.649l-.109.189-1.64 2.86c-.11.2-.177.448-.177.654 0 .205.067.454.17.64l1.756 3.025v3.651c0 .457.24.88.64 1.112l3.166 1.824.11.19 1.67 2.889c.253.413.667.658 1.122.658h3.545l.19.11L16.9 33.37c.198.11.447.177.653.177.205 0 .454-.067.64-.17l3.096-1.79h3.615c.457 0 .88-.242 1.114-.645l1.825-3.13.19-.108 2.85-1.634c.414-.253.66-.667.66-1.122v-3.545l.109-.19 1.716-2.976c.236-.409.236-.893.01-1.264z"/>
+        </g>
+    </g>
+</svg>

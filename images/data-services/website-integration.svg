@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="69" viewBox="0 0 68 69">
+    <defs>
+        <linearGradient id="a" x1="84.343%" x2="10.909%" y1="86.704%" y2="17.937%">
+            <stop offset="0%" stop-color="#2199FC"/>
+            <stop offset="100%" stop-color="#8CCBFF"/>
+        </linearGradient>
+        <circle id="c" cx="34" cy="34" r="26"/>
+        <filter id="b" width="148.1%" height="148.1%" x="-24%" y="-22.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter3"/>
+            <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter3"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="d" x1="5.208%" x2="92.161%" y1="4.601%" y2="92.426%">
+            <stop offset="0%" stop-color="#002C78"/>
+            <stop offset="100%" stop-color="#001443"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 .461)">
+        <circle cx="34" cy="34" r="34" fill="url(#a)"/>
+        <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+        <use fill="#FAFAFA" xlink:href="#c"/>
+        <path fill="url(#d)" fill-rule="nonzero" d="M39.571 41.779h-2.824a13.3 13.3 0 0 1 .265-2.319c.849.113 1.703.176 2.56.189v2.13zm-5.727 3.882c.77-.302 1.571-.523 2.388-.659-.16-.804-.25-1.62-.269-2.44h-3.037c.06 1.09.374 2.152.918 3.1zM39.57 49v-3.525a21.39 21.39 0 0 0-2.373.169c.503 1.792 1.376 3.084 2.373 3.356zm0-6.438h-2.824c.02.779.11 1.555.265 2.318a22.012 22.012 0 0 1 2.56-.188v-2.13zm.784-.783h2.824a13.3 13.3 0 0 0-.265-2.319c-.849.113-1.703.176-2.56.189v2.13zm-.784-6.438c-.997.272-1.87 1.564-2.373 3.356.787.1 1.58.157 2.373.169V35.34zm.784 0v3.525a21.403 21.403 0 0 0 2.373-.17c-.503-1.791-1.376-3.083-2.373-3.355zm-7.429 6.438h3.037c.02-.82.109-1.636.269-2.44a11.867 11.867 0 0 1-2.388-.66 6.996 6.996 0 0 0-.918 3.1zm1.353 4.552a7.07 7.07 0 0 0 3.795 2.629c-.713-.716-1.292-1.829-1.663-3.196-.727.12-1.442.31-2.132.567zm0-8.322c.69.258 1.405.448 2.132.568.371-1.367.95-2.48 1.663-3.196a7.07 7.07 0 0 0-3.795 2.628zm7.573-2.628c.713.715 1.292 1.829 1.663 3.196.728-.12 1.442-.31 2.132-.568a7.07 7.07 0 0 0-3.795-2.628zM40.355 49c.997-.272 1.87-1.564 2.373-3.356-.787-.1-1.58-.157-2.373-.17V49zm1.497-.04a7.07 7.07 0 0 0 3.795-2.629 11.416 11.416 0 0 0-2.132-.567c-.37 1.367-.95 2.48-1.663 3.196zm4.23-10.28c-.77.302-1.57.523-2.388.659.16.804.25 1.62.269 2.44H47a6.997 6.997 0 0 0-.918-3.1zm-5.727 6.012c.856.013 1.71.076 2.559.188.156-.763.244-1.539.265-2.318h-2.824v2.13zm3.608-2.13c-.019.82-.109 1.636-.269 2.44.817.136 1.618.357 2.388.66a6.997 6.997 0 0 0 .918-3.1h-3.037zM21 42.312v-17.17A2.144 2.144 0 0 1 23.142 23h21.716c1.182.001 2.14.96 2.142 2.142V38.33a8.017 8.017 0 0 0-14.722 6.126h-9.136A2.144 2.144 0 0 1 21 42.313zm13-15.968c0 .24.195.436.436.436h9.528a.436.436 0 0 0 .436-.436v-.86a.436.436 0 0 0-.436-.437h-9.528a.436.436 0 0 0-.436.436v.86zm-4.155-.43a.867.867 0 1 0 1.733 0 .867.867 0 0 0-1.733 0zm-3.178 0a.867.867 0 1 0 1.733 0 .867.867 0 0 0-1.733 0zm-3.178 0a.867.867 0 1 0 1.734 0 .867.867 0 0 0-1.734 0z"/>
+    </g>
+</svg>

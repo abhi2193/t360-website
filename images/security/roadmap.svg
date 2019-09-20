@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="69" viewBox="0 0 68 69">
+    <defs>
+        <linearGradient id="a" x1="84.343%" x2="10.909%" y1="86.704%" y2="17.937%">
+            <stop offset="0%" stop-color="#2199FC"/>
+            <stop offset="100%" stop-color="#8CCBFF"/>
+        </linearGradient>
+        <circle id="c" cx="34" cy="34" r="26"/>
+        <filter id="b" width="148.1%" height="148.1%" x="-24%" y="-22.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter3"/>
+            <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter3"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="d" x1="6.66%" x2="93.046%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#002C78"/>
+            <stop offset="100%" stop-color="#001443"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="34" cy="34" r="34" fill="url(#a)"/>
+        <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+        <use fill="#FAFAFA" xlink:href="#c"/>
+        <path fill="url(#d)" d="M21.865 21a.865.865 0 0 0-.865.865v24.27c0 .478.387.865.865.865H42.09A4.91 4.91 0 0 0 47 42.09V21.865a.865.865 0 0 0-.865-.865h-24.27zm.865 1.73h7.013v2.522h-4.825a.865.865 0 0 0-.865.865v2.697c0 .478.387.865.865.865h4.825v1.925h-1.496a.865.865 0 0 0-.865.865v2.697c0 .478.387.865.865.865h1.496v9.239H22.73V22.73zm7.878 0h6.862v8.874h-6.862v-1.925h4.838a1.856 1.856 0 0 0 1.856-1.855v-1.707a.865.865 0 0 0-.865-.865h-5.829V22.73zm7.727 0h6.935v19.36a3.178 3.178 0 0 1-3.18 3.18h-3.755V36.03h2.912a1.857 1.857 0 0 0 1.856-1.855v-1.707a.865.865 0 0 0-.865-.865h-3.903V22.73zm-7.727 13.301h6.862v9.239h-6.862V36.03zm-5.683 1.925a.865.865 0 0 0-.865.865v2.683c0 .478.388.865.865.865h1.699a1.852 1.852 0 0 0 1.85-1.85v-1.698a.865.865 0 0 0-.865-.865h-2.684z"/>
+    </g>
+</svg>
